@@ -5,9 +5,9 @@
 
         {{ default_schema }}
 
-    {%- elif custom_schema_name is none -%}
+    {%- elif "ci" in target.name -%}
 
-        {{ default_schema }}
+        {{ default_schema }}_{{ custom_schema_name | trim }}
 
     {%- else -%}
 
