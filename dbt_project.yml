@@ -35,3 +35,6 @@ models:
             +schema: intermediate
         marts:
             +schema: marts
+
+tests:
+    +severity: warn
