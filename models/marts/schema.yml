@@ -1,11 +1,11 @@
-version: 2
+# version: 2
 
-models:
-  - name: users
-    tests:
-      - test_b:
-          name: test_b
-          description: wonderful desc
-          config:
-            severity: error
+# models:
+#   - name: users
+#     tests:
+#       - test_b:
+#           name: test_b
+#           description: wonderful desc
+#           config:
+#             severity: error
           
